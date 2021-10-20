@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StereoCalibMatch"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\software\;CMake Files\software\opencv454\;CMake Files\software\opencv454\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StereoCalibMatch">
+				<Option output="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/StereoCalibMatch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/software/opencv454/build"/>
+					<Add directory="E:/software/opencv454/opencv/sources/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/core/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/flann/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/imgproc/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/ml/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/photo/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/dnn/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/features2d/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/videoio/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/calib3d/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/highgui/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/objdetect/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/stitching/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/ts/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/video/include"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 StereoCalibMatch"/>
+					<CompileFile command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StereoCalibMatch/fast">
+				<Option output="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/StereoCalibMatch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/software/opencv454/build"/>
+					<Add directory="E:/software/opencv454/opencv/sources/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/core/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/flann/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/imgproc/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/ml/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/photo/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/dnn/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/features2d/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/videoio/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/calib3d/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/highgui/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/objdetect/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/stitching/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/ts/include"/>
+					<Add directory="E:/software/opencv454/opencv/sources/modules/video/include"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 StereoCalibMatch/fast"/>
+					<CompileFile command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Environment/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/main.cpp">
+			<Option target="StereoCalibMatch"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/srcs/Calibrator.h">
+			<Option target="StereoCalibMatch"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/srcs/ChessBoard.h">
+			<Option target="StereoCalibMatch"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/srcs/CoreBM.h">
+			<Option target="StereoCalibMatch"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/srcs/config.h">
+			<Option target="StereoCalibMatch"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/srcs/utils.h">
+			<Option target="StereoCalibMatch"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/software/opencv454/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\software\opencv454\build\"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/software/opencv454/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\software\opencv454\build\"/>
+		</Unit>
+		<Unit filename="F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/software/opencv454/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\software\opencv454\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+"E:\software\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" F:\Desktop\cali\code\StereoCalib\StereoCalibMatch
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/Desktop/cali/code/StereoCalib/StereoCalibMatch/cmake-build-debug
