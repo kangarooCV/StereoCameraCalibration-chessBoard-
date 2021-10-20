@@ -15,5 +15,3 @@
 ![disp8](README.assets/disp8.jpg)
 
 ![dispRGB](README.assets/dispRGB.jpg)
-
-有不明白的欢迎在知识星球里提问！
